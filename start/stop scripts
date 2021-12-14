@@ -7,7 +7,7 @@ today=`date +%Y%m%d_%Hh%Mm`
 echo -e "All services are stopped"
 
 start script
-[root@zeucodvmlepm01 ~]# cat /epmcfg/Infra/EpmRestarts/nohup_startAll_EPM.sh
+[root@hostname ~]# cat /epmcfg/Infra/EpmRestarts/nohup_startAll_EPM.sh
 #!/bin/bash
 
 cd /epmcfg/Infra/EpmRestarts
